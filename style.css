@@ -1,0 +1,288 @@
+/*               Body                */
+/*************************************/
+
+body {
+  background-color: #ccc;
+  color: #24292e;
+  font-family: "Cabin", sans-serif;
+}
+
+.specific-content {
+  text-decoration: underline;
+}
+
+/*************************************/
+
+
+
+
+
+
+/*              Footer               */
+/*************************************/
+
+footer h2 {
+  color: #f2992e;
+  text-align: center;
+}
+
+/*************************************/
+
+
+
+
+
+
+/*             Home Page             */
+/*************************************/
+
+.heading {
+  background-color: #fff;
+  color: #0880ed;
+  font-size: 2em;
+  padding: 2em;
+  border-radius: .2em;
+  margin: 4em 3em;
+  text-align: center;
+}
+
+#heading-title {
+  color: #fff;
+  background-color: #36465d;
+  padding: 1em;
+  margin-top: -.61em;
+  margin-left: -.61em;
+  margin-right: -.61em;
+  border-top-left-radius: .05em;
+  border-top-right-radius: .05em;
+  font-size: 3.3em;
+  font-family: "Audrey-Medium";
+}
+
+.heading h1, h2 {
+  color: #434343;
+}
+
+.heading a {
+  font-size: 42px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #00ac5a;
+  border-radius: .1em;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+/**************************************/
+
+
+
+
+
+
+/*           Photos Page              */
+/**************************************/
+
+.gallery {
+  background-color: #fff;
+  color: #0880ed;
+  font-size: 33px;
+  padding: 2em;
+  border-radius: .2em;
+  margin: 4em 3em;
+  text-align: center;
+}
+
+.gallery h1 {
+  font-family: "Audrey-Medium";
+  font-size: 2.5em;
+  color: #fff;
+  background-color: #36465d;
+  padding: 1em;
+  margin-top: -.8em;
+  margin-left: -.8em;
+  margin-right: -.8em;
+  border-top-left-radius: .05em;
+  border-top-right-radius: .05em;
+} 
+
+/**************************************/
+
+
+
+/*             Photos            */
+/*********************************/
+
+.gallery img {
+  padding-top: 33px;
+  padding-bottom: 23px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin: 14px;
+}
+
+/*********************************/
+
+
+
+
+
+
+/*            Items Page              */
+/**************************************/
+
+.list {
+  background-color: #fff;
+  color: #a33dc2;
+  font-size: 33px;
+  font-weight: bold;
+  padding: 2em;
+  border-radius: .2em;
+  margin: 4em 3em;
+  text-align: center;
+}
+
+.list h1 {
+  font-family: "Audrey-Medium";
+  font-size: 2.5em;
+  background-color: #36465d;
+  color: #fff;
+  padding: 1em;
+  margin-top: -.8em;
+  margin-left: -.8em;
+  margin-right: -.8em;
+  border-top-left-radius: .05em;
+  border-top-right-radius: .05em;
+}
+
+.list ul {
+  list-style-type: none;
+}
+
+.list li {
+  padding-top: 23px;
+}
+
+#endList {
+  padding-top: 33px;
+}
+
+/************************************/
+
+
+
+
+
+
+/*           Contact Page           */
+/************************************/
+
+.info {
+  background-color: #fff;
+  color: #fff;
+  font-size: 33px;
+  padding: 1.3em;
+  border-radius: .2em;
+  margin: 2.7em;
+  text-align: center;
+}
+
+.info h1 {
+  font-size: 3em;
+  font-family: "Audrey-Medium";
+}
+
+.info h2 {
+  color: #434343;
+}
+
+.info-content {
+  color: #ab6954;
+}
+
+#contact-heading {
+  background-image: url("./photos/thegavel.jpg");
+  background-size: cover;
+  padding-top: 4em;
+  padding-bottom: 3.3em;
+  padding-left: 6em;
+  padding-right: 3.3em;
+  margin-top: -1.3em;
+  margin-left: -1.3em;
+  margin-right: -1.3em;
+  border-top-left-radius: .2em;
+  border-top-right-radius: .2em;
+}
+
+/************************************/
+
+
+
+
+
+
+/*            Nav-Bar            */
+/*********************************/
+  
+.nav-bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+  
+.nav-bar ul {
+  background-color: #24292e;
+  margin-top: -7.7px;
+  margin-bottom: 0;
+  margin-left: -7.7px;
+  margin-right: -7.7px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+}
+  
+.nav-bar li {
+  float: right;
+}
+  
+.nav-bar a {
+  color: #f2f7f7;
+  font-size: 23px;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  padding: 23px;
+  margin-right: 33px;
+}
+  
+.nav-bar a:hover {
+  color: #24292e;
+  background-color: #f2f7f7;
+  font-size: 23px;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  padding: 23px;
+  margin-right: 33px;
+}
+  
+.current-page a {
+  color: #00ac5a;
+  background-color: #34393e;
+  font-size: 23px;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  padding: 23px;
+  margin-right: 33px;
+}
+  
+.current-page a:hover {
+  color: #00ac5a;
+  background-color: #f2f7f7;
+}
+  
+/*********************************/
