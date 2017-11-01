@@ -118,10 +118,7 @@ footer h2 {
 .gallery img {
   background-color: #ddd;
   border-radius: .1em;
-  padding-top: 23px;
-  padding-bottom: 23px;
-  padding-left: 23px;
-  padding-right: 23px;
+  padding: 23px 23px;
   margin: 14px;
 }
 
